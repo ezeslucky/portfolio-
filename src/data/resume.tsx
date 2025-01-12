@@ -18,7 +18,6 @@ export const DATA = {
     "Javascript",
     "Typescript",
     "Node.js",
-    // "Go",
     "Git",
     "MongoDB",
     "Postgres",
@@ -38,7 +37,6 @@ export const DATA = {
     "AWS",
     "CI/CD",
     "Grafana",
-    // "Prometheus",
     "OpenAPI",
   ],
   navbar: [
@@ -212,6 +210,35 @@ export const DATA = {
       video: "",
     },
     {
+      title: "AI Object Ditector",
+      href: "https://ai-object-ditector.vercel.app/",
+      dates: "September 2024",
+      active: true,
+      description:
+        " Developed an AI-powered object detection platform leveraging advanced computer vision technologies. The website allows users to upload images and detect objects in real-time with accurate labeling and bounding boxes. Built using modern web technologies and deployed on Vercel for seamless performance and scalability.",
+      technologies: [
+        "Next.js",
+        "Typescript",
+        "TailwindCSS",
+        "Shadcn UI",
+        "OpenAI API",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://ai-object-ditector.vercel.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/ezeslucky/Ai-object-ditector.git",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "/object.png",
+      video: "",
+    },
+    {
       title: "Figma",
       href: "https://figma-clone-eight-eta.vercel.app/",
       dates: "September 2024",
@@ -239,6 +266,100 @@ export const DATA = {
         },
       ],
       image: "/figma.png",
+      video: "",
+    },
+    {
+      title: "Iphone",
+      href: "https://iphone-animation-delta.vercel.app/",
+      dates: "September 2024",
+      active: true,
+      description:
+        "A visually engaging website showcasing animations inspired by iPhone design and functionality. Developed with a focus on sleek UI, smooth transitions, and responsiveness across devices. Perfect for demonstrating expertise in animation and front-end development.",
+      technologies: [
+        "Next.js",
+        "ReactJS",
+        "Typescript",
+        "Three.js",
+        "GSAP",
+        
+        "TailwindCSS",
+        "Shadcn UI",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://iphone-animation-delta.vercel.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/ezeslucky/Iphone-Animation.git",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "/iphone.png",
+      video: "",
+    },
+    {
+      title: "Gaming",
+      href: "https://gaming-animated.vercel.app/",
+      dates: "September 2024",
+      active: true,
+      description:
+        "Developed an engaging and dynamic website focused on gaming animations. This project demonstrates expertise in creating visually appealing and interactive web interfaces tailored for gaming enthusiasts.",
+      technologies: [
+        "Next.js",
+        "ReactJS",
+        "Typescript",
+        "Three.js",
+        "GSAP",
+        "TailwindCSS",
+        "Shadcn UI",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://gaming-animated.vercel.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/ezeslucky/Gaming-Animated.git",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "/game.png",
+      video: "",
+    },
+    {
+      title: "Fizzi",
+      href: "https://animated-rosy.vercel.app//",
+      dates: "September 2024",
+      active: true,
+      description:
+        " Designed and developed an engaging animated website with a focus on seamless transitions and interactive elements. The project showcases creative UI/UX design principles and responsive web development techniques.",
+      technologies: [
+        "Next.js",
+        "ReactJS",
+        "Typescript",
+        "Three.js",
+        "GSAP",
+        "TailwindCSS",
+        "Shadcn UI",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://animated-rosy.vercel.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/ezeslucky/Animated.git",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "/fizzi.png",
       video: "",
     },
   ],
