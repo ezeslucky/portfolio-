@@ -8,9 +8,9 @@ export const DATA = {
   location: "Odisha, India",
   locationLink: "https://www.google.com/maps/place/odisha",
   description:
-    "Tech Enthusiast turned Full-Stack Engineer . I love building things and helping people. Very active on Twitter.",
+    "Tech Enthusiast turned Software Engineer . I love building things and helping people. Very active on Twitter.",
   summary:
-    "I’m a passionate [pre-final year undergrad](#education) with a deep love for coding and technology. My journey has led me to develop a strong foundation in [Web development, DevOps, and the emerging world of Web3](#education). I thrive on building innovative [products](#projects) and sharing my insights through blogging. Always eager to expand my skills and tackle new challenges, I’m actively seeking lucrative opportunities to leverage my tech expertise and drive impactful projects. Whether it’s through creating seamless web experiences or exploring the future of decentralized applications, I’m excited to contribute to the tech landscape and grow alongside it.",
+    "I’m a passionate [Full-Stack Developer](#skills) with a deep love for coding and technology. My journey has led me to build a strong foundation in [Web Development, DevOps, and the evolving world of Web3](#projects).I thrive on developing innovative products and sharing insights through blogging. I’ve participated in [~5 hackathons & ideathons](#hackathons), winning 2 of them, which has sharpened my problem-solving skills and ability to build under pressure.Always eager to expand my skills and tackle new challenges, I’m actively seeking exciting opportunities to leverage my expertise and drive impactful projects.Whether it’s crafting seamless web experiences or exploring the future of decentralized applications, I’m committed to contributing to the tech landscape and growing alongside it.",
   avatarUrl: "/lucky.jpg",
   skills: [
     "React",
@@ -38,6 +38,8 @@ export const DATA = {
     "CI/CD",
     "Grafana",
     "OpenAPI",
+    "Prometheus",
+    "Figma"
   ],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
@@ -122,6 +124,31 @@ export const DATA = {
     },
   ],
   projects: [
+    {
+      title: "AI-Finance",
+      href: "https://ai-saas-finance.vercel.app/",
+      dates: "Feb 2025",
+      active: true,
+      description:
+        "An AI-powered finance web application that provides intelligent financial insights and predictions. The platform utilizes machine learning algorithms to analyze financial data, generate reports, and assist users in making informed decisions.",
+      technologies: [
+        "Next.JS", "Supabase", "Tailwind", "Prisma", "Inngest", "ArcJet", "Shadcn UI"
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://ai-saas-finance.vercel.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/ezeslucky/Ai-Saas-Finance.git",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "/finance.png",
+      video: "",
+    },
     {
       title: "Simple Code-Editor",
       href: "https://editor-virid-rho.vercel.app/",
