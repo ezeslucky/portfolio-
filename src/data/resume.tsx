@@ -126,7 +126,7 @@ export const DATA = {
   projects: [
     {
       title: "AI-Finance",
-      href: "https://ai-saas-finance.vercel.app/",
+      href: "https://ai-saas-finance-facm-delta.vercel.app/",
       dates: "Feb 2025",
       active: true,
       description:
@@ -137,7 +137,7 @@ export const DATA = {
       links: [
         {
           type: "Website",
-          href: "https://ai-saas-finance.vercel.app/",
+          href: "https://ai-saas-finance-facm-delta.vercel.app/",
           icon: <Icons.globe className="size-3" />,
         },
         {
