@@ -126,7 +126,7 @@ export const DATA = {
   projects: [
     {
       title: "AI-Finance",
-      href: "https://ai-saas-finance-facm-delta.vercel.app/",
+      href: "https://alvest-finance.vercel.app/",
       dates: "Feb 2025",
       active: true,
       description:
@@ -137,7 +137,7 @@ export const DATA = {
       links: [
         {
           type: "Website",
-          href: "https://ai-saas-finance-facm-delta.vercel.app/",
+          href: "https://alvest-finance.vercel.app/",
           icon: <Icons.globe className="size-3" />,
         },
         {
@@ -392,19 +392,36 @@ export const DATA = {
   ],
   hackathons: [
     {
-      title: "SIH Hackathon",
-      dates: "September 2024 - Present",
-      location: "Kolkata, India",
+      title: "DeveloperWeek 2025 Hackathon",
+      dates: "Jan 27 – Feb 13, 2025",
+      location: "Online",
       description:
-        "Developed a web application that helps in ships re-routing using cuttinf edge traffic and optimizing the time taken to reach the destination.",
-      image: "Smart-India-Hackathon-2023.png",
+        "Participated in the nation's largest challenge-driven hackathon, where I built AIvest a dynamic solution leveraging Next.js, Prisma, Supabase, ShadCN, Inngest, and Arcjet  to enhance efficiency and scalability.",
+        
+      image: "hack1.png",
       links: [
         {
           title: "Source",
           icon: <Icons.github className="h-4 w-4" />,
-          href: "https://github.com/ezeslucky",
+          href: "https://github.com/ezeslucky/Ai-Saas-Finance.git",
         },
       ],
     },
+    {
+      title: "The Dev Challenge",
+      dates: "Winners TBD",
+      location: "Online",
+      description:
+        "Developed BotNext, a dynamic platform designed for seamless bot creation, management, and monitoring. It features a sleek, responsive UI, real-time dashboards, and secure authentication powered by Clerk.",
+      image: "hack2.png",
+      links: [
+        {
+          title: "Source",
+          icon: <Icons.github className="h-4 w-4" />,
+          href: "https://github.com/ezeslucky/BotNest.git",
+        },
+      ],
+    },
+    
   ],
 } as const;
