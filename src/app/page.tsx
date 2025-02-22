@@ -1,3 +1,4 @@
+import GitHubContributions from "@/components/github-contribution";
 import { HackathonCard } from "@/components/hackathon-card";
 import BlurFade from "@/components/magicui/blur-fade";
 import BlurFadeText from "@/components/magicui/blur-fade-text";
@@ -62,6 +63,12 @@ export default function Page() {
             ))}
           </div>
         </div>
+      </section>
+      <section id="Github">
+        <div className="flex min-h-0 flex-col gap-y-3">
+        <GitHubContributions/>
+        </div>
+
       </section>
       <section id="work">
         <div className="flex min-h-0 flex-col gap-y-3">

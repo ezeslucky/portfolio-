@@ -7,6 +7,7 @@ import { motion } from "framer-motion";
 import { ChevronRightIcon } from "lucide-react";
 import Link from "next/link";
 import React from "react";
+import GitHubContributions from "./github-contribution";
 
 interface ResumeCardProps {
   logoUrl: string;
@@ -52,8 +53,10 @@ export const ResumeCard = ({
               className="object-contain"
             />
             <AvatarFallback>{altText[0]}</AvatarFallback>
+            
           </Avatar>
         </div>
+      
         <div className="flex-grow ml-4 items-center flex-col group">
           <CardHeader>
             <div className="flex items-center justify-between gap-x-2 text-base">
@@ -85,6 +88,7 @@ export const ResumeCard = ({
             </div>
             {subtitle && <div className="font-sans text-xs">{subtitle}</div>}
           </CardHeader>
+         
           {description && (
             <motion.div
               initial={{ opacity: 0, height: 0 }}
@@ -103,7 +107,9 @@ export const ResumeCard = ({
             </motion.div>
           )}
         </div>
+        
       </Card>
+      
     </Link>
   );
 };
