@@ -45,9 +45,9 @@ export const DATA = {
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
     {
-      href: "",
-      icon: NotebookIcon,
-      label: "Blog",
+      href: "https://buymeacoffee.com/aurobindolk",
+      icon: Icons.BuyMeACoffee ,
+      label: "Buy Me A Coffee",
     },
   ],
   contact: {

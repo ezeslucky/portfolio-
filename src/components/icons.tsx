@@ -14,6 +14,17 @@ export const Icons = {
       />
     </svg>
   ),
+   
+   BuyMeACoffee : (props: IconProps) => (
+    <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" {...props}>
+      <title>Buy Me a Coffee</title>
+      <path
+        fill="currentColor"
+        d="M7 2c-.5 0-1 .5-1 1s.5 1 1 1h10c.5 0 1-.5 1-1s-.5-1-1-1H7zM5 6c-.5 0-1 .5-1 1s.5 1 1 1h14c.5 0 1-.5 1-1s-.5-1-1-1H5zM6 9l1 9c0 1 1 2 2 2h6c1 0 2-1 2-2l1-9H6z"
+      />
+    </svg>
+  ),
+  
   x: (props: IconProps) => (
     <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" {...props}>
       <title>X</title>
