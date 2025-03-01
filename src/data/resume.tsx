@@ -127,9 +127,34 @@ export const DATA = {
   ],
   projects: [
     {
+      title: "BotNext-UI",
+      href: "https://botnextui.vercel.app/",
+      dates: "Feb 2025",
+      active: true,
+      description:
+        "Developed a highly customizable AI-powered chatbot UI with real-time interactions.Integrated Aceternity UI for seamless design and Resend API for automated email notifications.Optimized performance and responsiveness, ensuring a smooth user experience across devices.",
+      technologies: [
+        "Next.JS",  "Tailwind", "Shadcn UI", "Aceternity UI", "Resend API"
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://botnextui.vercel.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/ezeslucky/BotNext-UI.git",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "/botnext.png",
+      video: "",
+    },
+    {
       title: "AI-Finance",
       href: "https://alvest-finance.vercel.app/",
-      dates: "Feb 2025",
+      dates: "Jan 2025",
       active: true,
       description:
         "An AI-powered finance web application that provides intelligent financial insights and predictions. The platform utilizes machine learning algorithms to analyze financial data, generate reports, and assist users in making informed decisions.",
