@@ -436,16 +436,16 @@ export const DATA = {
     },
     {
       title: "The Dev Challenge",
-      dates: "Winners TBD",
+      dates: "Winners TBD 🏆",
       location: "Online",
-      description:
-        "Developed BotNext, a dynamic platform designed for seamless bot creation, management, and monitoring. It features a sleek, responsive UI, real-time dashboards, and secure authentication powered by Clerk.",
+      description: 
+        "Developed BotNest, a dynamic platform for seamless bot creation, management, and monitoring. Features a sleek, responsive UI, real-time dashboards, and authentication powered by Clerk.Won The Dev Challenge among 791 participants. Built using Next.js, Aceternity UI, Clerk, and WebSockets.",
       image: "hack2.png",
       links: [
         {
           title: "Source",
           icon: <Icons.github className="h-4 w-4" />,
-          href: "https://github.com/ezeslucky/BotNest.git",
+          href: "https://github.com/ezeslucky/BotNext-UI.git",
         },
       ],
     },
