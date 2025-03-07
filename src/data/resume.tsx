@@ -152,6 +152,31 @@ export const DATA = {
       video: "",
     },
     {
+      title: "IcoNext",
+      href: "https://ico-next.vercel.app/",
+      dates: "March 2025",
+      active: true,
+      description:
+        "IcoNext is a highly customizable AI-powered chatbot UI built for real-time interactions. Designed with a sleek and modern interface, it ensures a seamless user experience across devices.",
+      technologies: [
+        "Next.JS",  "Tailwind", "Shadcn UI", "Motion", "Resend API"
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://ico-next.vercel.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/ezeslucky/IcoNext.git",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "/iconext.png",
+      video: "",
+    },
+    {
       title: "AI-Finance",
       href: "https://alvest-finance.vercel.app/",
       dates: "Jan 2025",
@@ -237,32 +262,7 @@ export const DATA = {
       image: "/scat.png",
       video: "",
     },
-    {
-      title: "Chrome Extension",
-      href: "",
-      dates: "September 2024",
-      active: true,
-      description:
-        " A Chrome extension that adds ChatGPT to every text box on the internet! Use it to write tweets, revise emails, fix coding bugs, or whatever else you need, all without leaving the site you are on. Includes a plugin system for greater control over ChatGPT behavior and ability to interact with 3rd party APIs.",
-      technologies: [
-        "Next.js",
-        "Typescript",
-        "TailwindCSS",
-        "Shadcn UI",
-        "OpenAI API",
-        "Convex",
-      ],
-      links: [
-        
-        {
-          type: "Source",
-          href: "https://github.com/ezeslucky/ChatGpt-Extension.git",
-          icon: <Icons.github className="size-3" />,
-        },
-      ],
-      image: "",
-      video: "",
-    },
+    
     {
       title: "AI Object Ditector",
       href: "https://ai-object-ditector.vercel.app/",
