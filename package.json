@@ -15,6 +15,7 @@
     "@radix-ui/react-slot": "^1.1.0",
     "@radix-ui/react-tooltip": "^1.1.2",
     "@types/mdx": "^2.0.13",
+    "axios": "^1.8.2",
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.1",
     "framer-motion": "^11.5.4",
@@ -34,7 +35,8 @@
     "shiki": "^1.16.2",
     "tailwind-merge": "^2.5.2",
     "tailwindcss-animate": "^1.0.7",
-    "unified": "^11.0.5"
+    "unified": "^11.0.5",
+    "zod": "^3.24.2"
   },
   "devDependencies": {
     "@tailwindcss/typography": "^0.5.15",
