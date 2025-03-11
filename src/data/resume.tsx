@@ -202,33 +202,34 @@ export const DATA = {
       video: "",
     },
     {
-      title: "Simple Code-Editor",
-      href: "https://editor-virid-rho.vercel.app/",
+      title: "Gaming",
+      href: "https://gaming-animated.vercel.app/",
       dates: "September 2024",
       active: true,
       description:
-        "Developed an Online IDE with multi-language support . Customizable experience with themes. Smart output handling with Success & Error states",
+        "Developed an engaging and dynamic website focused on gaming animations. This project demonstrates expertise in creating visually appealing and interactive web interfaces tailored for gaming enthusiasts.",
       technologies: [
         "Next.js",
         "ReactJS",
         "Typescript",
+        "Three.js",
+        "GSAP",
         "TailwindCSS",
         "Shadcn UI",
-        "Convex"
       ],
       links: [
         {
           type: "Website",
-          href: "https://editor-virid-rho.vercel.app/",
+          href: "https://gaming-animated.vercel.app/",
           icon: <Icons.globe className="size-3" />,
         },
         {
           type: "Source",
-          href: "https://github.com/ezeslucky/Editor.git",
+          href: "https://github.com/ezeslucky/Gaming-Animated.git",
           icon: <Icons.github className="size-3" />,
         },
       ],
-      image: "/editor.png",
+      image: "/game.png",
       video: "",
     },
     {
@@ -262,6 +263,37 @@ export const DATA = {
       image: "/scat.png",
       video: "",
     },
+    {
+      title: "Simple Code-Editor",
+      href: "https://editor-virid-rho.vercel.app/",
+      dates: "September 2024",
+      active: true,
+      description:
+        "Developed an Online IDE with multi-language support . Customizable experience with themes. Smart output handling with Success & Error states",
+      technologies: [
+        "Next.js",
+        "ReactJS",
+        "Typescript",
+        "TailwindCSS",
+        "Shadcn UI",
+        "Convex"
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://editor-virid-rho.vercel.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/ezeslucky/Editor.git",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "/editor.png",
+      video: "",
+    },
+    
     
     {
       title: "AI Object Ditector",
@@ -354,37 +386,7 @@ export const DATA = {
       image: "/iphone.png",
       video: "",
     },
-    {
-      title: "Gaming",
-      href: "https://gaming-animated.vercel.app/",
-      dates: "September 2024",
-      active: true,
-      description:
-        "Developed an engaging and dynamic website focused on gaming animations. This project demonstrates expertise in creating visually appealing and interactive web interfaces tailored for gaming enthusiasts.",
-      technologies: [
-        "Next.js",
-        "ReactJS",
-        "Typescript",
-        "Three.js",
-        "GSAP",
-        "TailwindCSS",
-        "Shadcn UI",
-      ],
-      links: [
-        {
-          type: "Website",
-          href: "https://gaming-animated.vercel.app/",
-          icon: <Icons.globe className="size-3" />,
-        },
-        {
-          type: "Source",
-          href: "https://github.com/ezeslucky/Gaming-Animated.git",
-          icon: <Icons.github className="size-3" />,
-        },
-      ],
-      image: "/game.png",
-      video: "",
-    },
+  
     {
       title: "Fizzi",
       href: "https://animated-rosy.vercel.app//",
