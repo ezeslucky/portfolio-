@@ -100,6 +100,18 @@ export const DATA = {
       description:
         "Developing and maintaining web applications using React.js and other related technologies.Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.Implementing responsive design and ensuring cross-browser compatibility.Participating in code reviews and providing constructive feedback to other developers.",
     },
+    {
+      company: "NullClass",
+      href: "",
+      badges: [],
+      location: "Remote",
+      title: "Web devlopment internship",
+      logoUrl: "/null.png",
+      start: "June 2024",
+      end: "March 2025",
+      description:
+        "Developed and maintained responsive web applications using modern JavaScript frameworks.Implemented UI/UX designs and optimized front-end performance.Integrated APIs and managed database operations.Collaborated with a team to build scalable and efficient web solutions.",
+    },
    
     {
       company: "Open Source",
@@ -201,37 +213,7 @@ export const DATA = {
       image: "/finance.png",
       video: "",
     },
-    {
-      title: "Gaming",
-      href: "https://gaming-animated.vercel.app/",
-      dates: "September 2024",
-      active: true,
-      description:
-        "Developed an engaging and dynamic website focused on gaming animations. This project demonstrates expertise in creating visually appealing and interactive web interfaces tailored for gaming enthusiasts.",
-      technologies: [
-        "Next.js",
-        "ReactJS",
-        "Typescript",
-        "Three.js",
-        "GSAP",
-        "TailwindCSS",
-        "Shadcn UI",
-      ],
-      links: [
-        {
-          type: "Website",
-          href: "https://gaming-animated.vercel.app/",
-          icon: <Icons.globe className="size-3" />,
-        },
-        {
-          type: "Source",
-          href: "https://github.com/ezeslucky/Gaming-Animated.git",
-          icon: <Icons.github className="size-3" />,
-        },
-      ],
-      image: "/game.png",
-      video: "",
-    },
+   
     {
       title: "Suburbia Skateboards",
       href: "https://skateboard-eta.vercel.app/",
@@ -324,68 +306,8 @@ export const DATA = {
       image: "/object.png",
       video: "",
     },
-    {
-      title: "Figma",
-      href: "https://figma-clone-eight-eta.vercel.app/",
-      dates: "September 2024",
-      active: true,
-      description:
-        "Allows multiple users to collaborate simultaneously by showing individual cursors, enabling real-time chat, and reactions for interactive communication.Displays a list of currently active users in the collaborative environment, providing visibility into who is currently engaged.Allows users to adjust the properties of design elements, offering flexibility in customizing and fine-tuning visual components.",
-      technologies: [
-        "Next.js",
-        "ReactJS",
-        "Typescript",
-        
-        "TailwindCSS",
-        "Shadcn UI",
-      ],
-      links: [
-        {
-          type: "Website",
-          href: "https://figma-clone-eight-eta.vercel.app/",
-          icon: <Icons.globe className="size-3" />,
-        },
-        {
-          type: "Source",
-          href: "https://github.com/ezeslucky/Figma-Clone.git",
-          icon: <Icons.github className="size-3" />,
-        },
-      ],
-      image: "/figma.png",
-      video: "",
-    },
-    {
-      title: "Iphone",
-      href: "https://iphone-animation-delta.vercel.app/",
-      dates: "September 2024",
-      active: true,
-      description:
-        "A visually engaging website showcasing animations inspired by iPhone design and functionality. Developed with a focus on sleek UI, smooth transitions, and responsiveness across devices. Perfect for demonstrating expertise in animation and front-end development.",
-      technologies: [
-        "Next.js",
-        "ReactJS",
-        "Typescript",
-        "Three.js",
-        "GSAP",
-        
-        "TailwindCSS",
-        "Shadcn UI",
-      ],
-      links: [
-        {
-          type: "Website",
-          href: "https://iphone-animation-delta.vercel.app/",
-          icon: <Icons.globe className="size-3" />,
-        },
-        {
-          type: "Source",
-          href: "https://github.com/ezeslucky/Iphone-Animation.git",
-          icon: <Icons.github className="size-3" />,
-        },
-      ],
-      image: "/iphone.png",
-      video: "",
-    },
+   
+   
   
     {
       title: "Fizzi",
