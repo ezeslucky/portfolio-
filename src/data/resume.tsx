@@ -164,6 +164,32 @@ export const DATA = {
       video: "",
     },
     {
+      title: "Drawio",
+      href: "https://drawio-ivory.vercel.app/",
+      dates: "April 2025",
+      active: true,
+      description:
+        "DrawIO Realtime is a full-stack collaborative whiteboard app designed for real-time drawing and ideation. It allows multiple users to sketch together with seamless live updates.",
+      technologies: [
+        "Next.JS",  "Tailwind", "Shadcn UI", "Docker", "PostgreSQl", "turborepo",
+        "Canvas",  "WebSocket"
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://drawio-ivory.vercel.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/ezeslucky/drawio.git",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "/pro4.png",
+      video: "",
+    },
+    {
       title: "IcoNext",
       href: "https://ico-next.vercel.app/",
       dates: "March 2025",
