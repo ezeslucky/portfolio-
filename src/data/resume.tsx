@@ -171,7 +171,7 @@ export const DATA = {
       description:
         "MeowFi is a memecoin landing page featuring a DEX swap interface that allows users to swap $MEOW tokens to Sepolia ETH. Built with cutting-edge web3 technologies, MeowFi provides a seamless and fun trading experience for crypto enthusiasts.",
       technologies: [
-           "React" ,"Solidity" ,"Foundry" ,"Bun" ,"Ethersjs" ,"Tailwindcss" ,"Vitejs" ,"Sepolia" ,"Shadcn-ui"
+           "React" ,"Solidity" ,"Foundry" ,"Bun" ,"Ethersjs" , "Ruby","Tailwindcss" ,"Vitejs" ,"Sepolia" ,"Shadcn-ui"
       ],
       links: [
         {
