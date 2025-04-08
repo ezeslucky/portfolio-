@@ -164,6 +164,31 @@ export const DATA = {
       video: "",
     },
     {
+      title: "MeowFi",
+      href: "https://meowfi-three.vercel.app/",
+      dates: "April 2025",
+      active: true,
+      description:
+        "MeowFi is a memecoin landing page featuring a DEX swap interface that allows users to swap $MEOW tokens to Sepolia ETH. Built with cutting-edge web3 technologies, MeowFi provides a seamless and fun trading experience for crypto enthusiasts.",
+      technologies: [
+           "React" ,"Solidity" ,"Foundry" ,"Bun" ,"Ethersjs" ,"Tailwindcss" ,"Vitejs" ,"Sepolia" ,"Shadcn-ui"
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://meowfi-three.vercel.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/ezeslucky/BotNext-UI.git",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "/memo.png",
+      video: "",
+    },
+    {
       title: "Drawio",
       href: "https://drawio-ivory.vercel.app/",
       dates: "April 2025",
