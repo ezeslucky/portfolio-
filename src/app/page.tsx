@@ -67,7 +67,7 @@ export default function Page() {
       </section>
       <section id="Github">
         <div className="flex min-h-0 flex-col gap-y-3">
-    <GitHubContributions/>
+{/*    // <GitHubContributions/> */}
  
         </div>
 
