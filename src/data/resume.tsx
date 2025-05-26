@@ -18,6 +18,7 @@ export const DATA = {
     "Next.js",
     "Javascript",
     "Typescript",
+    "Rust",
     "Node.js",
     "Git",
     "MongoDB",
