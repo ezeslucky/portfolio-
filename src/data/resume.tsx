@@ -121,7 +121,20 @@ export const DATA = {
       description:
         "Developed and maintained responsive web applications using modern JavaScript frameworks.Implemented UI/UX designs and optimized front-end performance.Integrated APIs and managed database operations.Collaborated with a team to build scalable and efficient web solutions.",
     },
-   
+   {
+      company: "Eastri",
+      href: "",
+      badges: [],
+      location: "Remote",
+      title: "Fuul-Stack Intern",
+      logoUrl: "",
+      start: "May 2025",
+      end: "Present",
+      description:
+        "Developed and maintained full-stack features using React.js, Next.js, and TypeScript on the frontend, ensuring a responsive and modern UI.Built backend services using Node.js and Express.js, integrating with MongoDB and PostgreSQL for robust data handling and persistenceImplemented secure authentication, API routes, and server-side logic using Next.js API routes and JWT-based auth.Deployed   applications via Docker, and configured hosting and CI/CD pipelines using GitHub Actions and AWS (EC2 & S3).  Used   WebSocket for real-time communication features, and integrated third-party APIs to enhance platform functionality.",
+       
+
+    },
     {
       company: "Open Source",
       badges: [],
@@ -147,10 +160,10 @@ export const DATA = {
     },
   ],
   projects: [
-    {
+        {
       title: "BotNext-UI",
       href: "https://botnextui.vercel.app/",
-      dates: "Feb 2025",
+      dates: "March 2025",
       active: true,
       description:
         "Developed a highly customizable AI-powered chatbot UI with real-time interactions.Integrated Aceternity UI for seamless design and Resend API for automated email notifications.Optimized performance and responsiveness, ensuring a smooth user experience across devices.",
@@ -172,6 +185,61 @@ export const DATA = {
       image: "/botnext.png",
       video: "",
     },
+
+    {
+      title: "Monitrix",
+      href: "https://monitrix.vercel.app/",
+      dates: "Feb 2025",
+      active: true,
+      description:
+        "Build   Monitrix, a single unified platform for observability—logs, metrics, and traces—to streamline debugging and monitoring for modern systems.Leveraged OpenTelemetry, eliminating vendor lock-in and ensuring full transparency and flexibility.Designed a flexible DIY Query Builder supporting PromQL and ClickHouse SQL, empowering users to extract actionable insights from observability data .Enabled developers to debug with richer context through correlated logs, metrics, and traces. ",
+      technologies: [
+        "Next.JS",  "Tailwind", "Docker", "Go", "Resend API", "Redis", "PostgreSQl",
+        "ClickHouse", "AWS", "Cloudflare", "CI/CD"
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://monitrix.vercel.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/ezeslucky/monitrix.git",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "/monitrix.png",
+      video: "",
+    },
+     {
+      title: "DeployIt",
+      href: "Comming Soon",
+      dates: "March 2025",
+      active: true,
+      description:
+        "Built DeployIt, an all-in-one platform to deploy, manage, and scale applications of any kind—ranging from simple web apps to complex microservices architectures.Enabled seamless deployment of applications written in Node.js, Go, Python, Ruby, PHP, and more.Supported popular databases like MySQL, PostgreSQL, MongoDB, MariaDB, and Redis, with automated backup to external storage.  ",
+      technologies: [
+        "Docker", "Docker Compose", "Docker Swarm", "Traefik", "Node.js", "TypeScript", "MongoDB", "Redis", "PostgreSQL", "React","Kafka","MonoRepo",
+        "CI/CD","Rust"
+
+      ],
+      links: [
+        {
+          type: "Comming Soon",
+          href: "/",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/ezeslucky/deployit.git",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "/deployit.png",
+      video: "",
+    },
+
     {
       title: "MeowFi",
       href: "https://meowfi-three.vercel.app/",
