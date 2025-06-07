@@ -291,31 +291,31 @@ export const DATA = {
       image: "/pro4.png",
       video: "",
     },
-    {
-      title: "IcoNext",
-      href: "https://ico-next.vercel.app/",
-      dates: "March 2025",
-      active: true,
-      description:
-        "IcoNext is a highly customizable AI-powered chatbot UI built for real-time interactions. Designed with a sleek and modern interface, it ensures a seamless user experience across devices.",
-      technologies: [
-        "Next.JS",  "Tailwind", "Shadcn UI", "Motion", "Resend API"
-      ],
-      links: [
-        {
-          type: "Website",
-          href: "https://ico-next.vercel.app/",
-          icon: <Icons.globe className="size-3" />,
-        },
-        {
-          type: "Source",
-          href: "https://github.com/ezeslucky/IcoNext.git",
-          icon: <Icons.github className="size-3" />,
-        },
-      ],
-      image: "/iconext.png",
-      video: "",
-    },
+    // {
+    //   title: "IcoNext",
+    //   href: "https://ico-next.vercel.app/",
+    //   dates: "March 2025",
+    //   active: true,
+    //   description:
+    //     "IcoNext is a highly customizable AI-powered chatbot UI built for real-time interactions. Designed with a sleek and modern interface, it ensures a seamless user experience across devices.",
+    //   technologies: [
+    //     "Next.JS",  "Tailwind", "Shadcn UI", "Motion", "Resend API"
+    //   ],
+    //   links: [
+    //     {
+    //       type: "Website",
+    //       href: "https://ico-next.vercel.app/",
+    //       icon: <Icons.globe className="size-3" />,
+    //     },
+    //     {
+    //       type: "Source",
+    //       href: "https://github.com/ezeslucky/IcoNext.git",
+    //       icon: <Icons.github className="size-3" />,
+    //     },
+    //   ],
+    //   image: "/iconext.png",
+    //   video: "",
+    // },
     {
       title: "AI-Finance",
       href: "https://alvest-finance.vercel.app/",
@@ -405,35 +405,35 @@ export const DATA = {
     },
     
     
-    {
-      title: "AI Object Ditector",
-      href: "https://ai-object-ditector.vercel.app/",
-      dates: "September 2024",
-      active: true,
-      description:
-        " Developed an AI-powered object detection platform leveraging advanced computer vision technologies. The website allows users to upload images and detect objects in real-time with accurate labeling and bounding boxes. Built using modern web technologies and deployed on Vercel for seamless performance and scalability.",
-      technologies: [
-        "Next.js",
-        "Typescript",
-        "TailwindCSS",
-        "Shadcn UI",
-        "OpenAI API",
-      ],
-      links: [
-        {
-          type: "Website",
-          href: "https://ai-object-ditector.vercel.app/",
-          icon: <Icons.globe className="size-3" />,
-        },
-        {
-          type: "Source",
-          href: "https://github.com/ezeslucky/Ai-object-ditector.git",
-          icon: <Icons.github className="size-3" />,
-        },
-      ],
-      image: "/object.png",
-      video: "",
-    },
+    // {
+    //   title: "AI Object Ditector",
+    //   href: "https://ai-object-ditector.vercel.app/",
+    //   dates: "September 2024",
+    //   active: true,
+    //   description:
+    //     " Developed an AI-powered object detection platform leveraging advanced computer vision technologies. The website allows users to upload images and detect objects in real-time with accurate labeling and bounding boxes. Built using modern web technologies and deployed on Vercel for seamless performance and scalability.",
+    //   technologies: [
+    //     "Next.js",
+    //     "Typescript",
+    //     "TailwindCSS",
+    //     "Shadcn UI",
+    //     "OpenAI API",
+    //   ],
+    //   links: [
+    //     {
+    //       type: "Website",
+    //       href: "https://ai-object-ditector.vercel.app/",
+    //       icon: <Icons.globe className="size-3" />,
+    //     },
+    //     {
+    //       type: "Source",
+    //       href: "https://github.com/ezeslucky/Ai-object-ditector.git",
+    //       icon: <Icons.github className="size-3" />,
+    //     },
+    //   ],
+    //   image: "/object.png",
+    //   video: "",
+    // },
    
    
   
