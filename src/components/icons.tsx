@@ -34,6 +34,27 @@ export const Icons = {
       />
     </svg>
   ),
+  Resume:(props: IconProps) => (
+  <svg  width="32px"
+      height="32px"  viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" {...props}>
+    <title>Google Docs</title>
+    {/* Document body */}
+    <path
+      fill="#4285F4"
+      d="M6 2a2 2 0 0 0-2 2v16c0 1.1.9 2 2 2h12a2 2 0 0 0 2-2V7.83a2 2 0 0 0-.59-1.42l-4.83-4.83A2 2 0 0 0 13.17 1H6z"
+    />
+    {/* Folded corner */}
+    <path
+      fill="#A6C8FF"
+      d="M14 2v5h5L14 2z"
+    />
+    {/* Simulated text lines */}
+    <rect x="7" y="9" width="10" height="1.5" rx="0.75" fill="white" />
+    <rect x="7" y="11.5" width="8" height="1.5" rx="0.75" fill="white" />
+    <rect x="7" y="14" width="9" height="1.5" rx="0.75" fill="white" />
+    <rect x="7" y="16.5" width="6" height="1.5" rx="0.75" fill="white" />
+  </svg>
+),
   youtube: (props: IconProps) => (
     <svg
       width="32px"
