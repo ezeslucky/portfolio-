@@ -374,95 +374,26 @@ export const DATA = {
       dates: "June 2025",
       active: true,
       description:
-        "Developed an Online IDE with multi-language support . Customizable experience with themes. Smart output handling with Success & Error states",
-      technologies: [
-        "Next.js",
-        "ReactJS",
-        "Typescript",
-        "TailwindCSS",
-        "Shadcn UI",
-        "Convex"
-      ],
+        "Strongly typed CLI development for Node.js",
+      
       links: [
         {
           type: "Website",
-          href: "https://editor-virid-rho.vercel.app/",
+          href: "https://www.npmjs.com/package/@ezeslucky/genie-cli",
           icon: <Icons.globe className="size-3" />,
         },
         {
           type: "Source",
-          href: "https://github.com/ezeslucky/Editor.git",
+          href: "https://github.com/ezeslucky/genie.git",
           icon: <Icons.github className="size-3" />,
         },
       ],
-      image: "/editor.png",
+      image: "/pac2.png",
       video: "",
     },
     
     
-    {
-      title: "AI Object Ditector",
-      href: "https://ai-object-ditector.vercel.app/",
-      dates: "September 2024",
-      active: true,
-      description:
-        " Developed an AI-powered object detection platform leveraging advanced computer vision technologies. The website allows users to upload images and detect objects in real-time with accurate labeling and bounding boxes. Built using modern web technologies and deployed on Vercel for seamless performance and scalability.",
-      technologies: [
-        "Next.js",
-        "Typescript",
-        "TailwindCSS",
-        "Shadcn UI",
-        "OpenAI API",
-      ],
-      links: [
-        {
-          type: "Website",
-          href: "https://ai-object-ditector.vercel.app/",
-          icon: <Icons.globe className="size-3" />,
-        },
-        {
-          type: "Source",
-          href: "https://github.com/ezeslucky/Ai-object-ditector.git",
-          icon: <Icons.github className="size-3" />,
-        },
-      ],
-      image: "/object.png",
-      video: "",
-    },
    
-   
-  
-    {
-      title: "Fizzi",
-      href: "https://animated-rosy.vercel.app//",
-      dates: "September 2024",
-      active: true,
-      description:
-        " Designed and developed an engaging animated website with a focus on seamless transitions and interactive elements. The project showcases creative UI/UX design principles and responsive web development techniques.",
-      technologies: [
-        "Next.js",
-        "ReactJS",
-        "Typescript",
-        "Three.js",
-        "GSAP",
-        "TailwindCSS",
-        "Shadcn UI",
-      ],
-      links: [
-        {
-          type: "Website",
-          href: "https://animated-rosy.vercel.app/",
-          icon: <Icons.globe className="size-3" />,
-        },
-        {
-          type: "Source",
-          href: "https://github.com/ezeslucky/Animated.git",
-          icon: <Icons.github className="size-3" />,
-        },
-      ],
-      image: "/fizzi.png",
-      video: "",
-    },
   ],
   hackathons: [
     {
