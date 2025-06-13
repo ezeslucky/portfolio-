@@ -342,132 +342,55 @@ export const DATA = {
       video: "",
     },
    
-    {
-      title: "Suburbia Skateboards",
-      href: "https://skateboard-eta.vercel.app/",
-      dates: "September 2024",
-      active: true,
-      description:
-        " Build a 3D skateboard customizer app and landing page with Next.js 15, GSAP, Prismic, Three.js, Tailwind, and TypeScript!",
-      technologies: [
-        "Next.js",
-        "Typescript",
-        "PostgreSQL",
-        "Three.js",
-        "TailwindCSS",
-        "Shadcn UI",
-        "GSAP"
-      ],
-      links: [
-        {
-          type: "Website",
-          href: "https://skateboard-eta.vercel.app/",
-          icon: <Icons.globe className="size-3" />,
-        },
-        {
-          type: "Source",
-          href: "https://github.com/ezeslucky/Skateboard.git",
-          icon: <Icons.github className="size-3" />,
-        },
-      ],
-      image: "/scat.png",
-      video: "",
-    },
-    {
-      title: "Simple Code-Editor",
-      href: "https://editor-virid-rho.vercel.app/",
-      dates: "September 2024",
-      active: true,
-      description:
-        "Developed an Online IDE with multi-language support . Customizable experience with themes. Smart output handling with Success & Error states",
-      technologies: [
-        "Next.js",
-        "ReactJS",
-        "Typescript",
-        "TailwindCSS",
-        "Shadcn UI",
-        "Convex"
-      ],
-      links: [
-        {
-          type: "Website",
-          href: "https://editor-virid-rho.vercel.app/",
-          icon: <Icons.globe className="size-3" />,
-        },
-        {
-          type: "Source",
-          href: "https://github.com/ezeslucky/Editor.git",
-          icon: <Icons.github className="size-3" />,
-        },
-      ],
-      image: "/editor.png",
-      video: "",
-    },
     
-    
-    {
-      title: "AI Object Ditector",
-      href: "https://ai-object-ditector.vercel.app/",
-      dates: "September 2024",
+  ],
+  package:[
+{
+      title: "AICommitter",
+      href: "https://www.npmjs.com/package/@ezeslucky/aicommitter",
+      dates: "June 2025",
       active: true,
       description:
-        " Developed an AI-powered object detection platform leveraging advanced computer vision technologies. The website allows users to upload images and detect objects in real-time with accurate labeling and bounding boxes. Built using modern web technologies and deployed on Vercel for seamless performance and scalability.",
-      technologies: [
-        "Next.js",
-        "Typescript",
-        "TailwindCSS",
-        "Shadcn UI",
-        "OpenAI API",
-      ],
+        "A CLI that writes your git commit messages for you with AI. Never write a commit message again.",
+      
       links: [
         {
           type: "Website",
-          href: "https://ai-object-ditector.vercel.app/",
+          href: "https://www.npmjs.com/package/@ezeslucky/aicommitter",
           icon: <Icons.globe className="size-3" />,
         },
         {
           type: "Source",
-          href: "https://github.com/ezeslucky/Ai-object-ditector.git",
+          href: "https://github.com/ezeslucky/aicommitter.git",
           icon: <Icons.github className="size-3" />,
         },
       ],
-      image: "/object.png",
+      image: "/pac1.png",
       video: "",
     },
-   
-   
-  
     {
-      title: "Fizzi",
-      href: "https://animated-rosy.vercel.app//",
-      dates: "September 2024",
+      title: "Genie",
+      href: "https://www.npmjs.com/package/@ezeslucky/genie-cli",
+      dates: "June 2025",
       active: true,
       description:
-        " Designed and developed an engaging animated website with a focus on seamless transitions and interactive elements. The project showcases creative UI/UX design principles and responsive web development techniques.",
-      technologies: [
-        "Next.js",
-        "ReactJS",
-        "Typescript",
-        "Three.js",
-        "GSAP",
-        "TailwindCSS",
-        "Shadcn UI",
-      ],
+        "Strongly typed CLI development for Node.js",
+      
       links: [
         {
           type: "Website",
-          href: "https://animated-rosy.vercel.app/",
+          href: "https://www.npmjs.com/package/@ezeslucky/genie-cli",
           icon: <Icons.globe className="size-3" />,
         },
         {
           type: "Source",
-          href: "https://github.com/ezeslucky/Animated.git",
+          href: "https://github.com/ezeslucky/genie.git",
           icon: <Icons.github className="size-3" />,
         },
       ],
-      image: "/fizzi.png",
+      image: "/pac2.png",
       video: "",
-    },
+    }
   ],
   hackathons: [
     {
