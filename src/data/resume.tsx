@@ -390,7 +390,29 @@ export const DATA = {
       ],
       image: "/pac2.png",
       video: "",
-    },
+    },{
+title: "Bundlify",
+      href: "https://www.npmjs.com/package/@ezeslucky/bundlify",
+      dates: "June 2025",
+      active: true,
+      description:
+        "Bundlify is a JavaScript package bundler powered by Rollup that automatically builds your package from entry-points",
+      
+      links: [
+        {
+          type: "Website",
+          href: "https://www.npmjs.com/package/@ezeslucky/bundlify",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/ezeslucky/bundlify.git",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "/pac3.png",
+      video: "",
+    }
     
     
    
