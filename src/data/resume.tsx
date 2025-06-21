@@ -19,7 +19,7 @@ export const DATA = {
     "Javascript",
     "Typescript",
     "Rust",
-    "Go",
+    "Actix",
     "Node.js",
     "Git",
     "MongoDB",
