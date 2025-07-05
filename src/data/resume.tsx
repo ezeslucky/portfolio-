@@ -213,12 +213,12 @@ export const DATA = {
       video: "",
     },
      {
-      title: "DeployIt",
+      title: "DeployI",
       href: "Comming Soon",
       dates: "March 2025",
       active: true,
       description:
-        "Built DeployIt, an all-in-one platform to deploy, manage, and scale applications of any kind—ranging from simple web apps to complex microservices architectures.Enabled seamless deployment of applications written in Node.js, Go, Python, Ruby, PHP, and more.Supported popular databases like MySQL, PostgreSQL, MongoDB, MariaDB, and Redis, with automated backup to external storage.  ",
+        "Built DeployI, an all-in-one platform to deploy, manage, and scale applications of any kind—ranging from simple web apps to complex microservices architectures.Enabled seamless deployment of applications written in Node.js, Go, Python, Ruby, PHP, and more.Supported popular databases like MySQL, PostgreSQL, MongoDB, MariaDB, and Redis, with automated backup to external storage.  ",
       technologies: [
         "Docker", "Docker Compose", "Docker Swarm", "Traefik", "Node.js", "TypeScript", "MongoDB", "Redis", "PostgreSQL", "React","Kafka","MonoRepo",
         "CI/CD","Rust"
@@ -232,7 +232,7 @@ export const DATA = {
         },
         {
           type: "Source",
-          href: "https://github.com/ezeslucky/deployit.git",
+          href: "https://github.com/ezeslucky/deployi.git",
           icon: <Icons.github className="size-3" />,
         },
       ],
