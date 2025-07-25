@@ -18,7 +18,7 @@ export const DATA = {
     "Next.js",
     "Javascript",
     "Typescript",
-    "Go"
+    "Go",
     "Rust",
     "Actix",
     "Node.js",
@@ -133,7 +133,6 @@ export const DATA = {
       end: "Present",
       description:
         "Developed and maintained full-stack features using React.js, Next.js, and TypeScript on the frontend, ensuring a responsive and modern UI.Built backend services using Node.js and Express.js, integrating with MongoDB and PostgreSQL for robust data handling and persistenceImplemented secure authentication, API routes, and server-side logic using Next.js API routes and JWT-based auth.Deployed   applications via Docker, and configured hosting and CI/CD pipelines using GitHub Actions and AWS (EC2 & S3).  Used   WebSocket for real-time communication features, and integrated third-party APIs to enhance platform functionality.",
-       
 
     },
     {
