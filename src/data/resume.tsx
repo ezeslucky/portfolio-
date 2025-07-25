@@ -161,7 +161,7 @@ export const DATA = {
   ],
   projects: [
               {
-      title: "Deploy",
+      title: "Deployi",
       href: "https://deployi.me/",
       dates: "March 2025",
       active: true,
