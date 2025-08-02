@@ -11,7 +11,7 @@ export const DATA = {
   description:
     "Tech Enthusiast turned Software Engineer . I love building things and helping people. Very active on Twitter.",
   summary:
-    "I’m a passionate [Full-Stack Developer](#skills) with a deep love for coding and technology. My journey has led me to build a strong foundation in [Web Development, DevOps, and the evolving world of Web3](#projects).I thrive on developing innovative products and sharing insights through blogging. I’ve participated in [~5 hackathons & ideathons](#hackathons), winning 2 of them, which has sharpened my problem-solving skills and ability to build under pressure.Always eager to expand my skills and tackle new challenges, I’m actively seeking exciting opportunities to leverage my expertise and drive impactful projects.Whether it’s crafting seamless web experiences or exploring the future of decentralized applications, I’m committed to contributing to the tech landscape and growing alongside it.",
+    "I’m a passionate [ Full-Stack & AI Product  Engineer](#skills) with a deep love for coding and technology. My journey has led me to build a strong foundation in [Web Development, DevOps, and the evolving world of Web3](#projects).I thrive on developing innovative products and sharing insights through blogging. I’ve participated in [~5 hackathons & ideathons](#hackathons), winning 2 of them, which has sharpened my problem-solving skills and ability to build under pressure.Always eager to expand my skills and tackle new challenges, I’m actively seeking exciting opportunities to leverage my expertise and drive impactful projects.Whether it’s crafting seamless web experiences or exploring the future of decentralized applications, I’m committed to contributing to the tech landscape and growing alongside it.",
   avatarUrl: "/lucky.png",
   skills: [
     "React",
@@ -133,6 +133,19 @@ export const DATA = {
       end: "Present",
       description:
         "Developed and maintained full-stack features using React.js, Next.js, and TypeScript on the frontend, ensuring a responsive and modern UI.Built backend services using Node.js and Express.js, integrating with MongoDB and PostgreSQL for robust data handling and persistenceImplemented secure authentication, API routes, and server-side logic using Next.js API routes and JWT-based auth.Deployed   applications via Docker, and configured hosting and CI/CD pipelines using GitHub Actions and AWS (EC2 & S3).  Used   WebSocket for real-time communication features, and integrated third-party APIs to enhance platform functionality.",
+
+    },
+       {
+      company: "Deployi",
+      href: "https://deployi.me/",
+      badges: [],
+      location: "Remote",
+      title: "Co-Founder or Full-Stack & AI Product  Engineer",
+      logoUrl: "",
+      start: "Jan 2024",
+      end: "Present",
+      description:" Built DeployI, an all-in-one platform to deploy, manage, and scale applications of any kind ranging from simple web apps to complex microservices architectures.Enabled seamless deployment of applications written in Node.js, Go, Python, Ruby, PHP, and more.Supported popular databases like MySQL, PostgreSQL, MongoDB, MariaDB, and Redis, with automated backup to external storage."
+
 
     },
     {
