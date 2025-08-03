@@ -225,33 +225,6 @@ export const DATA = {
       image: "/botnext.png",
       video: "",
     },
-
-    {
-      title: "Monitrix",
-      href: "https://monitrix.vercel.app/",
-      dates: "Feb 2025",
-      active: true,
-      description:
-        "Build   Monitrix, a single unified platform for observability—logs, metrics, and traces—to streamline debugging and monitoring for modern systems.Leveraged OpenTelemetry, eliminating vendor lock-in and ensuring full transparency and flexibility.Designed a flexible DIY Query Builder supporting PromQL and ClickHouse SQL, empowering users to extract actionable insights from observability data .Enabled developers to debug with richer context through correlated logs, metrics, and traces. ",
-      technologies: [
-        "Next.JS",  "Tailwind", "Docker", "Go", "Resend API", "Redis", "PostgreSQl",
-        "ClickHouse", "AWS", "Cloudflare", "CI/CD"
-      ],
-      links: [
-        {
-          type: "Website",
-          href: "https://monitrix.vercel.app/",
-          icon: <Icons.globe className="size-3" />,
-        },
-        {
-          type: "Source",
-          href: "https://github.com/ezeslucky/monitrix.git",
-          icon: <Icons.github className="size-3" />,
-        },
-      ],
-      image: "/monitrix.png",
-      video: "",
-    },
  
 
     {
@@ -272,7 +245,7 @@ export const DATA = {
         },
         {
           type: "Source",
-          href: "https://github.com/ezeslucky/BotNext-UI.git",
+          href: "https://github.com/ezeslucky/meowfi.git",
           icon: <Icons.github className="size-3" />,
         },
       ],
@@ -305,31 +278,7 @@ export const DATA = {
       image: "/pro4.png",
       video: "",
     },
-    // {
-    //   title: "IcoNext",
-    //   href: "https://ico-next.vercel.app/",
-    //   dates: "March 2025",
-    //   active: true,
-    //   description:
-    //     "IcoNext is a highly customizable AI-powered chatbot UI built for real-time interactions. Designed with a sleek and modern interface, it ensures a seamless user experience across devices.",
-    //   technologies: [
-    //     "Next.JS",  "Tailwind", "Shadcn UI", "Motion", "Resend API"
-    //   ],
-    //   links: [
-    //     {
-    //       type: "Website",
-    //       href: "https://ico-next.vercel.app/",
-    //       icon: <Icons.globe className="size-3" />,
-    //     },
-    //     {
-    //       type: "Source",
-    //       href: "https://github.com/ezeslucky/IcoNext.git",
-    //       icon: <Icons.github className="size-3" />,
-    //     },
-    //   ],
-    //   image: "/iconext.png",
-    //   video: "",
-    // },
+   
     {
       title: "AI-Finance",
       href: "https://alvest-finance.vercel.app/",
