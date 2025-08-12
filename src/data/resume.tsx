@@ -45,14 +45,7 @@ export const DATA = {
     "Prometheus",
     "Figma"
   ],
-  navbar: [
-    { href: "/", icon: HomeIcon, label: "Home" },
-    {
-      href: "https://buymeacoffee.com/aurobindolk",
-      icon: Icons.BuyMeACoffee ,
-      label: "Buy Me A Coffee",
-    },
-  ],
+
   contact: {
     email: "aurobindolife888@gmail.com",
     tel: "+91 7439837730",
@@ -78,12 +71,12 @@ export const DATA = {
 
         navbar: true,
       },
-            Resume: {
-        name: "Resume",
-        url: "https://docs.google.com/document/d/1punelStSMwXQQj43Rtjv57JYJhwXbCoq/edit?usp=sharing&ouid=105499874851745795602&rtpof=true&sd=true",
-        icon: Icons.Resume,
+        //     Resume: {
+        // name: "Resume",
+        // url: "https://docs.google.com/document/d/1punelStSMwXQQj43Rtjv57JYJhwXbCoq/edit?usp=sharing&ouid=105499874851745795602&rtpof=true&sd=true",
+        // icon: Icons.Resume,
 
-        navbar: true,
+        // navbar: true,
       },
       
       email: {
@@ -140,7 +133,7 @@ export const DATA = {
       href: "https://deployi.me/",
       badges: [],
       location: "Remote",
-      title: "Co-Founder or Full-Stack & AI Product  Engineer",
+      title: "Full-Stack & AI Product  Engineer",
       logoUrl: "",
       start: "Jan 2024",
       end: "Present",
