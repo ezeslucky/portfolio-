@@ -45,7 +45,14 @@ export const DATA = {
     "Prometheus",
     "Figma"
   ],
-
+ navbar: [
+    // { href: "/", icon: HomeIcon, label: "Home" },
+    // {
+    //   href: "https://buymeacoffee.com/aurobindolk",
+    //   icon: Icons.BuyMeACoffee ,
+    //   label: "Buy Me A Coffee",
+    // },
+  ],
   contact: {
     email: "aurobindolife888@gmail.com",
     tel: "+91 7439837730",
