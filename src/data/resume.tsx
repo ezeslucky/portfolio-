@@ -77,7 +77,7 @@ export const DATA = {
         // icon: Icons.Resume,
 
         // navbar: true,
-      },
+      // },
       
       email: {
         name: "Send Email",
