@@ -43,7 +43,7 @@ export const DATA = {
     "OpenAPI",
     "Prometheus",
     "Figma",
-    "GenAI", "Langchain", "OpenAI", "Streamlit", "Ollama", "Google ADK"
+    "GenAI", "Langchain", "OpenAI", "Streamlit", "Ollama", "Google ADK", "DSA"
   ],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
